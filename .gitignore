@@ -1,0 +1,16 @@
+node_modules/
+.svelte-kit/
+build/
+.vercel/
+.output/
+
+# real secrets - never commit
+.env
+.env.*
+!.env.example
+
+# local business planning content (not committed)
+business-plan/
+
+.DS_Store
+Thumbs.db
